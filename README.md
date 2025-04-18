@@ -14,6 +14,6 @@ MetroTunnel is only tested on Windows10 with .Net framework 4.7.2
 
 Currently the `Run Metro 2033` TrayMenuItem only supports the steam version.
 
-Beta Builds **do not** provide an **exe**cutable to download.
+Beta Builds **Do Not** provide an **Exe**cutable to download.
 
 
