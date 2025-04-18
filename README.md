@@ -4,7 +4,7 @@ This program is used to move `Metro 2033` Windowed Mode Caption to an onscreen l
 
 Run from anywhere before or after running `Metro 2033` in Windowed Mode.
 
-To run The Game in Windowed Mode change the following line to `off` in `%LOCALAPPDATA%\4A Games\Metro 2033\`<sub><sup>user-id</sub></sup>`\user.cfg`
+To run The Game in Windowed Mode change the following line to `off` in `%LOCALAPPDATA%\4A Games\Metro 2033\`<sub><sup>`user-id`</sub></sup>`\user.cfg`
 
 ```
 r_fullscreen off
