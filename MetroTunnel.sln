@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MetroTunnel", "MetroTunnel\MetroTunnel.vbproj", "{6B0EE785-A173-4704-B828-0E708320C9CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B0EE785-A173-4704-B828-0E708320C9CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B0EE785-A173-4704-B828-0E708320C9CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B0EE785-A173-4704-B828-0E708320C9CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B0EE785-A173-4704-B828-0E708320C9CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
