@@ -1,5 +1,4 @@
 ﻿Imports System.Runtime.InteropServices
-Imports System.Runtime.Remoting.Messaging
 
 Module NativeMethods
     <DllImport("user32.dll", SetLastError:=True)>
