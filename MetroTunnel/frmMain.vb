@@ -47,8 +47,7 @@ Public Class frmMain
             Exit Sub
         End If
 
-        'Dim MetroThread As UInteger = GetWindowThreadProcessId(If(MetroProc?.MainWindowHandle, IntPtr.Zero), Nothing)
-
+        'do nothing when user is moving window
         If GetGUIThreadInfo(MetroThread, GTI) AndAlso GTI.flags.HasFlag(GUI_FLAGS.GUI_INMOVESIZE) Then Exit Sub
 
         'find sysmenu and diable move item
@@ -59,8 +58,8 @@ Public Class frmMain
 
         Dim rcc As RECT
         GetClientRect(If(MetroProc?.MainWindowHandle, IntPtr.Zero), rcc)
-        If rcc.right = 0 Then
-            Debug.Print("METRO isn't windwed")
+        If rcc.right = 0 Then 'this needs further testing
+            Debug.Print($"METRO isn't windwed {rcc}")
             Exit Sub
         End If
 
